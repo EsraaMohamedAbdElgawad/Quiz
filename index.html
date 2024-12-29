@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>JS EXAM</title>
+  </head>
+  <body>
+    <div id="screen1">
+      <div id="screen1part1">
+        <p><b>First Name</b></p>
+        <input id="Firstname" type="name" placeholder="Firstname" />
+        <p id="errorfirstname"></p>
+        <p><b>Last Name</b></p>
+        <input type="text" placeholder="Lastname" id="Lastname" />
+        <p id="errorlastname"></p>
+        <button id="namebutton">Next</button>
+      </div>
+      <div id="screen1part2">
+        <h1>Hello Friend</h1>
+        <p>Enter your personal details and <br />start your journey with us</p>
+      </div>
+    </div>
+
+    <div id="screen2">
+      <div id="screen2part1">
+        <p><b>Email</b></p>
+        <input id="email" type="email" name="email" placeholder="Email" />
+        <p id="emailerror"></p>
+        <p><b>Image</b></p>
+        <input id="imginput" type="file" name="image" accept="image/*" />
+        <p id="imgerror"></p>
+        <button id="nextemailbutton">Next</button>
+        <button id="Previousbutton">Previous</button>
+      </div>
+      <div id="screen2part2">
+        <h1>Hello Friend</h1>
+        <p>Enter your personal details and <br />start your journey with us</p>
+      </div>
+    </div>
+
+    <div id="screen3">
+      <div id="screen3part1">
+        <p><b>Password</b></p>
+        <input
+          id="pass"
+          type="password"
+          name="password"
+          placeholder="password"
+        />
+        <p id="passerror"></p>
+        <p><b>Pe-enter Password</b></p>
+        <input
+          id="prepass"
+          type="password"
+          name="password"
+          placeholder="password"
+          required
+        />
+        <p id="repasserror"></p>
+        <button id="register">Register</button>
+        <button id="prepassbtn">Previous</button>
+      </div>
+      <div id="screen3part2">
+        <h1>Hello Friend</h1>
+        <p>Enter your personal details and <br />start your journey with us</p>
+      </div>
+    </div>
+
+    <div id="screen4">
+      <div id="screen4part1">
+        <h1>WELCOME BACK</h1>
+        <p>
+          To keep conncted with us <br />please login with your personal info
+        </p>
+      </div>
+      <div id="screen4part2">
+        <i class="fa-solid fa-user fa-xl" style="color: #c8c7c7"></i>
+        <p>USER NAME</p>
+
+        <input id="finalemail" type="email" placeholder="Email" />
+        <p id="finalemailerror"></p>
+
+        <i class="fa-solid fa-lock fa-xl" style="color: #c8c7c7"></i>
+        <p>PASSWORD</p>
+
+        <input id="finalpassword" type="password" placeholder="password" />
+        <p id="finalpassworderror"></p>
+        <button id="loginbutton">Log in</button>
+      </div>
+    </div>
+
+    <!-- -->
+    <div id="screen5">
+      <div id="screen5partone">
+        <p>
+          welcom to java script Exam.
+          <br />We wish you success as you embark on this Exam.
+          <br />
+          Be confident ,do your best
+        </p>
+
+        <button id="startexam">Start Now</button>
+      </div>
+
+      <div id="screen5parttwo">
+        <img src="images/2.jpg" />
+      </div>
+    </div>
+
+    <!--  -->
+
+    <div id="screen6">
+      <div id="screen6partone">
+        <div id="container">
+          <div id="questionstitles"></div>
+
+          <div id="answers"></div>
+
+          <div class="btnanddots">
+            <button id="perviousquestionbtn">Pervious</button>
+
+            <!-- <div class="dots"></div> -->
+            <div><button id="submit-button">Next</button></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="screen6parttwo">
+        <div>
+          <img id="userimg" />
+        </div>
+
+        <button id="logout">Logout</button>
+        <div id="timer">10:00</div>
+      </div>
+    </div>
+
+    <div id="screen7">
+      <div id="screen7partone">
+        <p>Congratulations! You passed the test and your score is good.</p>
+      </div>
+
+      <div id="screen7parttwo">
+        <img src="images/5.png" />
+      </div>
+    </div>
+    <div id="screen8">
+      <div id="screen8partone">
+        <p>Congratulations! Your score is not bad , but there is better.</p>
+      </div>
+
+      <div id="screen8parttwo">
+        <img src="images/5.png" />
+      </div>
+    </div>
+
+    <div id="screen9">
+      <div id="screen8partone">
+        <p>Unfortunately! You didn’t pass the test .</p>
+      </div>
+
+      <div id="screen9parttwo">
+        <img src="images/6.png" />
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

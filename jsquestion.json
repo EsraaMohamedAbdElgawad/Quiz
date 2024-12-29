@@ -1,0 +1,322 @@
+[
+  {
+    "title": "What Does `console.log()` Do?",
+    "answer_1": "Logs Output to the Console",
+    "answer_2": "Creates a New HTML Element",
+    "answer_3": "Adds an Event Listener",
+    "answer_4": "Sets a Variable Value",
+    "right_answer": "Logs Output to the Console"
+  },
+  {
+    "title": "What Keyword Is Used to Declare a Variable in JavaScript?",
+    "answer_1": "let",
+    "answer_2": "var",
+    "answer_3": "const",
+    "answer_4": "All of the Above",
+    "right_answer": "All of the Above"
+  },
+  {
+    "title": "How Do You Define a Function in JavaScript?",
+    "answer_1": "function myFunction() {}",
+    "answer_2": "define myFunction() {}",
+    "answer_3": "func myFunction() {}",
+    "answer_4": "create myFunction() {}",
+    "right_answer": "function myFunction() {}"
+  },
+  {
+    "title": "What Is the Purpose of `return` in a Function?",
+    "answer_1": "To Exit the Function and Optionally Return a Value",
+    "answer_2": "To Create a New Function",
+    "answer_3": "To Execute the Function Immediately",
+    "answer_4": "To Define a Variable",
+    "right_answer": "To Exit the Function and Optionally Return a Value"
+  },
+  {
+    "title": "What Is a Closure in JavaScript?",
+    "answer_1": "A Function with Access to Its Own Scope, the Outer Function's Scope, and the Global Scope",
+    "answer_2": "A Function That Returns Another Function",
+    "answer_3": "A Type of Object",
+    "answer_4": "An Event Handler",
+    "right_answer": "A Function with Access to Its Own Scope, the Outer Function's Scope, and the Global Scope"
+  },
+  {
+    "title": "What Is the Output of `typeof NaN`?",
+    "answer_1": "number",
+    "answer_2": "NaN",
+    "answer_3": "undefined",
+    "answer_4": "object",
+    "right_answer": "number"
+  },
+  {
+    "title": "How Do You Check if a Variable Is an Array?",
+    "answer_1": "Array.isArray()",
+    "answer_2": "typeof variable === 'array'",
+    "answer_3": "variable instanceof Array",
+    "answer_4": "variable.isArray()",
+    "right_answer": "Array.isArray()"
+  },
+  {
+    "title": "What Is the Purpose of `this` in JavaScript?",
+    "answer_1": "Refers to the Current Object",
+    "answer_2": "Creates a New Variable",
+    "answer_3": "Defines a Function",
+    "answer_4": "Logs Information to the Console",
+    "right_answer": "Refers to the Current Object"
+  },
+  {
+    "title": "What Does `JSON.stringify()` Do?",
+    "answer_1": "Converts a JavaScript Object to a JSON String",
+    "answer_2": "Parses a JSON String into a JavaScript Object",
+    "answer_3": "Checks if a JSON String Is Valid",
+    "answer_4": "Formats a JSON String",
+    "right_answer": "Converts a JavaScript Object to a JSON String"
+  },
+  {
+    "title": "How Can You Add a New Property to an Object?",
+    "answer_1": "object.newProperty = value",
+    "answer_2": "object.add('newProperty', value)",
+    "answer_3": "object.set('newProperty', value)",
+    "answer_4": "object.append('newProperty', value)",
+    "right_answer": "object.newProperty = value"
+  },
+  {
+    "title": "What Is the Difference Between `==` and `===`?",
+    "answer_1": "`==` Checks for Equality of Value, `===` Checks for Equality of Value and Type",
+    "answer_2": "`==` Checks for Equality of Type, `===` Checks for Equality of Value",
+    "answer_3": "`==` Checks for Inequality, `===` Checks for Equality",
+    "answer_4": "There Is No Difference",
+    "right_answer": "`==` Checks for Equality of Value, `===` Checks for Equality of Value and Type"
+  },
+  {
+    "title": "How Do You Create a New Array in JavaScript?",
+    "answer_1": "let arr = []",
+    "answer_2": "let arr = new Array()",
+    "answer_3": "let arr = Array()",
+    "answer_4": "All of the Above",
+    "right_answer": "All of the Above"
+  },
+  {
+    "title": "What Does `Array.prototype.map()` Do?",
+    "answer_1": "Creates a New Array with Results of a Function Applied to Every Element",
+    "answer_2": "Filters Elements Based on a Condition",
+    "answer_3": "Finds the Index of an Element",
+    "answer_4": "Sorts Elements of an Array",
+    "right_answer": "Creates a New Array with Results of a Function Applied to Every Element"
+  },
+  {
+    "title": "What Is the Output of `0.1 + 0.2 === 0.3`?",
+    "answer_1": "false",
+    "answer_2": "true",
+    "answer_3": "undefined",
+    "answer_4": "NaN",
+    "right_answer": "false"
+  },
+  {
+    "title": "How Do You Declare a Constant Variable in JavaScript?",
+    "answer_1": "const variableName = value;",
+    "answer_2": "let variableName = value;",
+    "answer_3": "var variableName = value;",
+    "answer_4": "constant variableName = value;",
+    "right_answer": "const variableName = value;"
+  },
+  {
+    "title": "What Is a Promise in JavaScript?",
+    "answer_1": "An Object Representing the Completion or Failure of an Asynchronous Operation",
+    "answer_2": "A Function That Returns a Value",
+    "answer_3": "A Data Structure for Storing Multiple Values",
+    "answer_4": "A Type of Event Handler",
+    "right_answer": "An Object Representing the Completion or Failure of an Asynchronous Operation"
+  },
+  {
+    "title": "What Method Is Used to Remove the Last Element from an Array?",
+    "answer_1": "pop()",
+    "answer_2": "shift()",
+    "answer_3": "splice()",
+    "answer_4": "slice()",
+    "right_answer": "pop()"
+  },
+  {
+    "title": "How Do You Select an Element by Its ID in JavaScript?",
+    "answer_1": "document.getElementById('id')",
+    "answer_2": "document.querySelector('#id')",
+    "answer_3": "document.querySelectorAll('#id')",
+    "answer_4": "document.getElementByClassName('id')",
+    "right_answer": "document.getElementById('id')"
+  },
+  {
+    "title": "What Is the Output of `[] + {}` in JavaScript?",
+    "answer_1": "[object Object]",
+    "answer_2": "[]",
+    "answer_3": "{}",
+    "answer_4": "undefined",
+    "right_answer": "[object Object]"
+  },
+  {
+    "title": "How Do You Define a JavaScript Object?",
+    "answer_1": "let obj = {}",
+    "answer_2": "let obj = []",
+    "answer_3": "let obj = new Object()",
+    "answer_4": "let obj = Object.create(null)",
+    "right_answer": "let obj = {}"
+  },
+  {
+    "title": "What Is `NaN` in JavaScript?",
+    "answer_1": "Not-a-Number",
+    "answer_2": "Not-a-Name",
+    "answer_3": "Not-a-Node",
+    "answer_4": "Not-a-Nothing",
+    "right_answer": "Not-a-Number"
+  },
+  {
+    "title": "What Method Is Used to Add an Item to the End of an Array?",
+    "answer_1": "push()",
+    "answer_2": "unshift()",
+    "answer_3": "pop()",
+    "answer_4": "shift()",
+    "right_answer": "push()"
+  },
+  {
+    "title": "How Do You Convert a String to an Integer?",
+    "answer_1": "parseInt(string)",
+    "answer_2": "parseFloat(string)",
+    "answer_3": "Number(string)",
+    "answer_4": "string.toInteger()",
+    "right_answer": "parseInt(string)"
+  },
+  {
+    "title": "What Is the Output of `'2' - 1`?",
+    "answer_1": "1",
+    "answer_2": "2",
+    "answer_3": "undefined",
+    "answer_4": "NaN",
+    "right_answer": "1"
+  },
+  {
+    "title": "How Do You Define a Variable That Can’t Be Reassigned?",
+    "answer_1": "const",
+    "answer_2": "let",
+    "answer_3": "var",
+    "answer_4": "immutable",
+    "right_answer": "const"
+  },
+  {
+    "title": "What Does `Array.prototype.reduce()` Do?",
+    "answer_1": "Executes a Reducer Function on Each Element of the Array",
+    "answer_2": "Filters Elements Based on a Condition",
+    "answer_3": "Maps Elements to a New Array",
+    "answer_4": "Sorts the Elements of an Array",
+    "right_answer": "Executes a Reducer Function on Each Element of the Array"
+  },
+  {
+    "title": "How Do You Define an Arrow Function?",
+    "answer_1": "const myFunction = () => {}",
+    "answer_2": "function myFunction() {}",
+    "answer_3": "myFunction = function() {}",
+    "answer_4": "function => myFunction() {}",
+    "right_answer": "const myFunction = () => {}"
+  },
+  {
+    "title": "What Is the Output of `typeof null`?",
+    "answer_1": "object",
+    "answer_2": "null",
+    "answer_3": "undefined",
+    "answer_4": "number",
+    "right_answer": "object"
+  },
+  {
+    "title": "How Do You Create a New JavaScript Object from an Existing One?",
+    "answer_1": "Object.create(existingObject)",
+    "answer_2": "new existingObject()",
+    "answer_3": "Object.assign(newObject, existingObject)",
+    "answer_4": "existingObject.clone()",
+    "right_answer": "Object.create(existingObject)"
+  },
+  {
+    "title": "What Is the Purpose of `try...catch` in JavaScript?",
+    "answer_1": "To Handle Errors in Code",
+    "answer_2": "To Perform Arithmetic Operations",
+    "answer_3": "To Define New Functions",
+    "answer_4": "To Manipulate the DOM",
+    "right_answer": "To Handle Errors in Code"
+  },
+  {
+    "title": "How Do You Check for the Existence of a Property in an Object?",
+    "answer_1": "'property' in object",
+    "answer_2": "object.hasOwnProperty('property')",
+    "answer_3": "object.property !== undefined",
+    "answer_4": "object.property === null",
+    "right_answer": "'property' in object"
+  },
+  {
+    "title": "What Is the Output of `1 + '1'`?",
+    "answer_1": "'11'",
+    "answer_2": "2",
+    "answer_3": "'1 1'",
+    "answer_4": "NaN",
+    "right_answer": "'11'"
+  },
+  {
+    "title": "How Do You Make an HTTP Request in JavaScript?",
+    "answer_1": "Using `fetch()` or `XMLHttpRequest`",
+    "answer_2": "Using `console.log()`",
+    "answer_3": "Using `window.location`",
+    "answer_4": "Using `document.getElementById()`",
+    "right_answer": "Using `fetch()` or `XMLHttpRequest`"
+  },
+  {
+    "title": "What Is the Purpose of `setTimeout()`?",
+    "answer_1": "To Execute a Function After a Specified Delay",
+    "answer_2": "To Stop the Execution of a Function",
+    "answer_3": "To Schedule a Function to Run Repeatedly",
+    "answer_4": "To Retrieve the Current Time",
+    "right_answer": "To Execute a Function After a Specified Delay"
+  },
+  {
+    "title": "How Do You Check if a Value Is a Number?",
+    "answer_1": "isNaN(value)",
+    "answer_2": "typeof value === 'number'",
+    "answer_3": "Number.isInteger(value)",
+    "answer_4": "value instanceof Number",
+    "right_answer": "typeof value === 'number'"
+  },
+  {
+    "title": "What Does `Array.prototype.slice()` Do?",
+    "answer_1": "Creates a New Array with a Copy of a Portion of an Existing Array",
+    "answer_2": "Removes Elements from an Array",
+    "answer_3": "Adds Elements to the End of an Array",
+    "answer_4": "Finds the Index of an Element",
+    "right_answer": "Creates a New Array with a Copy of a Portion of an Existing Array"
+  },
+  {
+    "title": "How Do You Create a Template Literal in JavaScript?",
+    "answer_1": "Using Backticks (``)",
+    "answer_2": "Using Single Quotes ('')",
+    "answer_3": "Using Double Quotes ('')",
+    "answer_4": "Using Braces ({})",
+    "right_answer": "Using Backticks (``)"
+  },
+  {
+    "title": "What Is the Output of `'3' * 2`?",
+    "answer_1": "6",
+    "answer_2": "'6'",
+    "answer_3": "undefined",
+    "answer_4": "NaN",
+    "right_answer": "6"
+  },
+  {
+    "title": "What Is the Purpose of the `delete` Operator?",
+    "answer_1": "To Remove a Property from an Object",
+    "answer_2": "To Remove an Element from an Array",
+    "answer_3": "To Remove a Variable",
+    "answer_4": "To Remove a Function",
+    "right_answer": "To Remove a Property from an Object"
+  },
+  {
+    "title": "How Do You Convert a String to a Float in JavaScript?",
+    "answer_1": "parseFloat(string)",
+    "answer_2": "parseInt(string)",
+    "answer_3": "Number(string)",
+    "answer_4": "string.toFloat()",
+    "right_answer": "parseFloat(string)"
+  }
+]

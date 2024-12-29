@@ -1,0 +1,558 @@
+body {
+  background-image: url(https://wallpaperaccess.com/full/3702556.jpg);
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#screen1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#screen1part1,
+#screen1part2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  border-radius: 0.8%;
+  text-align: center;
+  -webkit-border-radius: 0.8%;
+  -moz-border-radius: 0.8%;
+  -ms-border-radius: 0.8%;
+  -o-border-radius: 0.8%;
+}
+#screen1part2 {
+  background-color: #97be47;
+  border: 1px solid #97be47;
+}
+#screen1part1 {
+  background-color: white;
+  border: 1px solid #c8c7c7;
+  color: #403f42;
+}
+
+#screen1part1 input {
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+  border-color: #636167;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#screen1part1 button {
+  justify-content: center;
+  background-color: #97be47;
+  width: 150px;
+  height: 50px;
+
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#screen1part2 h1 {
+  color: white;
+}
+#screen1part2 p {
+  color: white;
+}
+i {
+  margin: 5px;
+}
+/* ################# */
+#screen2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#screen2part1,
+#screen2part2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  border-radius: 2%;
+  text-align: center;
+  -webkit-border-radius: 2%;
+  -moz-border-radius: 2%;
+  -ms-border-radius: 2%;
+  -o-border-radius: 2%;
+}
+#screen2part2 {
+  color: white;
+  background-color: #97be47;
+  border: 1px solid #97be47;
+}
+#screen2part1 {
+  background-color: white;
+  border: 1px solid #c8c7c7;
+  color: #403f42;
+}
+
+#screen2part1 input {
+  margin: 5px;
+  padding: 5px;
+  width: 50%;
+  border: #403f42 solid 1px;
+  color: #403f42;
+}
+#screen2part1 button {
+  justify-content: center;
+  background-color: #97be47;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#nextemailbutton {
+  margin-top: 20px;
+}
+
+/*  ###################### */
+#screen3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#screen3part1,
+#screen3part2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  border-radius: 2%;
+  text-align: center;
+  -webkit-border-radius: 2%;
+  -moz-border-radius: 2%;
+  -ms-border-radius: 2%;
+  -o-border-radius: 2%;
+}
+#screen3part1 {
+  background-color: white;
+  border: 1px solid #c8c7c7;
+  color: #636167;
+}
+#screen3part2 {
+  color: white;
+  background-color: #97be47;
+  border: 1px solid #97be47;
+}
+
+#screen3 button {
+  justify-content: center;
+  background-color: #97be47;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#screen3part1 input {
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+}
+
+i {
+  margin: 5px;
+}
+
+/*  ###################### */
+#screen5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+#screen5 p {
+  color: #494544;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+#screen5 button {
+  background-color: #97be47;
+  height: 80px;
+  width: 200px;
+  border-style: none;
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  box-shadow: 0 9px #999;
+  cursor: pointer;
+}
+#screen5 button:hover {
+  background: #759a2b;
+}
+#screen5 img {
+  border-radius: 2%;
+  -webkit-border-radius: 2%;
+  -moz-border-radius: 2%;
+  -ms-border-radius: 2%;
+  -o-border-radius: 2%;
+  box-shadow: 5px 8px 10px #97be47;
+}
+
+/*  ###################### */
+#screen4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#screen4part1,
+#screen4part2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  border-radius: 2%;
+  text-align: center;
+  -webkit-border-radius: 2%;
+  -moz-border-radius: 2%;
+  -ms-border-radius: 2%;
+  -o-border-radius: 2%;
+}
+
+#screen4part1 {
+  color: white;
+  background-color: #97be47;
+  border: 1px solid #c8c7c7;
+}
+
+#screen4part2 {
+  background-color: white;
+  border: 1px solid #c8c7c7;
+}
+
+#screen4part2 input,
+button {
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+}
+
+#screen4part2 button {
+  justify-content: center;
+  background-color: #97be47;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+i {
+  margin: 5px;
+}
+#errorfirstname,
+#errorlastname,
+#emailerror,
+#imgerror,
+#passerror,
+#repasserror,
+#finalemailerror,
+#finalpassworderror {
+  color: red;
+  font-size: 15px;
+}
+
+#screen6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+#screen6partone {
+  border: #97be47 solid 3px;
+  border-radius: 5px;
+  width: 800px;
+  height: 500px;
+  position: absolute;
+  left: 250px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+#container {
+  position: relative;
+}
+
+#questionstitles {
+  width: 600px;
+  height: 120px;
+  background-color: #97be47;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-top: 50px;
+}
+#questionstitles h3 {
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+}
+
+#answers {
+  display: flex;
+  width: 600px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+#answers input[type="button"] {
+  width: 280px;
+  height: 100px;
+  background-color: #97be47;
+  border: 1px solid #97be47;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+}
+#answers input[type="button"]:hover {
+  background-color: #b4b2ba;
+}
+#screen6parttwo {
+  background-color: #97be47;
+  width: 250px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+#submit-button {
+  position: absolute;
+  right: 0;
+  justify-content: center;
+  background-color: #97be47;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 20px;
+}
+#perviousquestionbtn {
+  position: absolute;
+  left: 0;
+  justify-content: center;
+  background-color: #97be47;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 20px;
+}
+
+#numberofquestion {
+  border: #403f42 1px solid;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+#screen6parttwo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#screen6parttwo img {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.btnanddots {
+  display: flex;
+  justify-content: space-between;
+}
+#screen7 body {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+#screen7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+#screen7 p {
+  color: #494544;
+  font-size: 30px;
+  padding-bottom: 20px;
+  margin: 30px;
+}
+#screen7 img {
+  border-radius: 2%;
+  -webkit-border-radius: 2%;
+  -moz-border-radius: 2%;
+  -ms-border-radius: 2%;
+  -o-border-radius: 2%;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 5%;
+}
+
+/* ############### */
+#screen8 body {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+#screen8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+#screen8 p {
+  color: #494544;
+  font-size: 30px;
+  padding-bottom: 20px;
+  margin: 30px;
+}
+#screen8 img {
+  border-radius: 2%;
+  -webkit-border-radius: 2%;
+  -moz-border-radius: 2%;
+  -ms-border-radius: 2%;
+  -o-border-radius: 2%;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 5%;
+}
+
+/* ############### */
+#screen9 body {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+#screen9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+#screen9 p {
+  color: #494544;
+  font-size: 30px;
+  padding-bottom: 20px;
+  margin: 30px;
+}
+#screen9 img {
+  border-radius: 2%;
+  -webkit-border-radius: 2%;
+  -moz-border-radius: 2%;
+  -ms-border-radius: 2%;
+  -o-border-radius: 2%;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 5%;
+}
+
+#logout {
+  justify-content: center;
+  background-color: #403f42;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
